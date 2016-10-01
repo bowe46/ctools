@@ -700,6 +700,7 @@ void ctobssim::simulate_source(GCTAObservation* obs,
             *wrklog << gammalib::parformat("Simulation cone");
             *wrklog << "RA=" << dir.ra_deg() << " deg";
             *wrklog << ", Dec=" << dir.dec_deg() << " deg";
+            // Might be useful to add also Longitude and Latitude in the events simulated file
             *wrklog << ", radius=" << rad << " deg" << std::endl;
         }
 
